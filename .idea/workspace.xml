@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="" />
+    <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -28,49 +35,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.blog.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contacto.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.App.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.bin\\www.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.contacto.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.db.js (1).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.db.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.insert.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.routes.js (1).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.routes.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.server.js (1).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.users.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.10&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/DELL/WebstormProjects/mi_Sitie/mi_aplicacion/node_modules/react-scripts&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "JavaScript Debug.blog.html.executor": "Run",
+    "JavaScript Debug.contacto.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Jest.App.test.js.executor": "Run",
+    "Jest.renders learn react link.executor": "Run",
+    "Node.js.App.js.executor": "Run",
+    "Node.js.app.js.executor": "Run",
+    "Node.js.bin\\www.executor": "Debug",
+    "Node.js.contacto.js.executor": "Run",
+    "Node.js.db.js (1).executor": "Run",
+    "Node.js.db.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.insert.js.executor": "Run",
+    "Node.js.routes.js (1).executor": "Run",
+    "Node.js.routes.js.executor": "Run",
+    "Node.js.server.js (1).executor": "Run",
+    "Node.js.server.js.executor": "Run",
+    "Node.js.users.js.executor": "Run",
+    "Node.js.www.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.15.0",
+    "javascript.nodejs.core.library.typings.version": "20.14.10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/DELL/WebstormProjects/mi_Sitie/mi_aplicacion/node_modules/react-scripts",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\DELL\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2969b64e-2d06-4172-b016-d71edb241ed6" reportId="mi_Sitie/qodana/2024-07-04" />
@@ -95,7 +103,7 @@
     <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/db/db.js" working-dir="$PROJECT_DIR$/mi_api/db">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/routes/index.js" working-dir="$PROJECT_DIR$/mi_api/routes">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$/mi_api/routes">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/server.js" working-dir="$PROJECT_DIR$/mi_aplicacion/src">
@@ -147,7 +155,7 @@
       <workItem from="1720209803326" duration="2671000" />
       <workItem from="1720476348565" duration="101000" />
       <workItem from="1721067177611" duration="6215000" />
-      <workItem from="1721073499246" duration="3219000" />
+      <workItem from="1721073499246" duration="5159000" />
     </task>
     <servers />
   </component>
@@ -162,11 +170,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mi_api/routes/index.js</url>
+          <url>file://$PROJECT_DIR$/index.js</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mi_api/routes/index.js</url>
+          <url>file://$PROJECT_DIR$/index.js</url>
           <line>3</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
