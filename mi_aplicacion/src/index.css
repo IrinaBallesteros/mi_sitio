@@ -1,0 +1,422 @@
+html, body {
+  background-color: var(--background);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#081427;
+  color: white;
+}
+
+.nombre_sitio{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #00B7FF;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+ opacity: 30%;
+
+}
+
+/* Estilo para el subtítulo */
+.site-tagline {
+  padding-top: 38px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #0a3871;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 220px;
+  margin-left: 15px;
+}
+
+header h1{
+  margin-top: -28px;
+  font-size: 50px;
+  margin-left: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2{
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+}
+
+.slider {
+  width: 90%;
+  margin: 50px auto;
+}
+.slider img {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: #34f9fe;
+  color: #fff;
+  font-size: x-large;
+}
+
+.hero p {
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  padding: 0;
+  color: #011d2b;
+}
+
+.hero-content h2{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.dynamic-paragraph {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.sugerencia-blog h2{
+  color: #011d2b;
+}
+
+.sugerencia-blog p{
+  color: #011d2b;
+  font-size: x-large;
+}
+
+:root {
+  --background: #f4f5ff;
+  --primary: #4ADEDD;
+}
+
+.sigemt{
+  justify-content: center;
+  text-align: center;
+}
+
+.site{
+  justify-content: center;
+  text-align: center;
+}
+
+.social-links {
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  padding: 0;
+}
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 2rem;
+}
+.social-links a:hover {
+  color: #007bff;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.5rem;
+  margin: 2rem;
+  margin-bottom: 5rem;
+}
+.aside li {
+  background-color: white;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  flex: 1;
+  width: 100%;
+}
+.aside h3 {
+  color: var(--primary);
+}
+.blog-post .author {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  color: #011d2b;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.nuestros_servicios h2{
+  color: #011d2b;
+  text-align: center;
+}
+
+.elige_paquetes h2{
+  color: #011d2b;
+  text-align: center;
+}
+
+.dynamic-title {
+  font-size: 3rem;
+  color: #011d2b;
+  margin: 20px 0;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s forwards;
+}
+
+/* Animación de desvanecimiento y desplazamiento hacia arriba */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Cambio de color al pasar el cursor */
+.dynamic-title:hover {
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.container_servicios {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services h2{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: white;
+  box-sizing: border-box;
+}
+
+.service {
+  background-color: #011d2b; /* Azul más oscuro para los servicios */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+.container_paquetes {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.paquets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
+
+.paquets h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: white;
+}
+
+.paquete {
+  background-color: #011d2b; /* Azul más oscuro para los servicios */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: justify;
+}
+
+.btn-primary{
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  font-size: 20px;
+  transition: 1s all;
+  margin-left: 50px;
+  flex-direction: row;
+  cursor: pointer;
+  border: 1px solid #0a3871;
+  transition-duration : 1s;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  float: left;
+}
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+form li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+/* Estilo para las etiquetas */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilos para los campos de entrada */
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+/* Estilo para el campo de mensaje */
+form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Estilos para los campos de entrada al obtener foco */
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilo para el botón de envío */
+form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Barra lateral
+aside {
+  float: unset;
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+*/
+footer {
+  box-sizing: border-box;
+  background-color: #011d2b; /* Azul más oscuro para el pie de página */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+  color: #34f9fe;
+}
+

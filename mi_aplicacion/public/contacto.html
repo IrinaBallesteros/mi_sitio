@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esfera Inteligente</title>
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ga+Maamli&family=Goudy+Bookletter+1911&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nombre_sitio">IRINA BALLESTEROS</div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="en_construccion.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+               <p>En Esfera Inteligente, no solo ofrecemos servicios, ofrecemos soluciones transformadoras, estamos comprometidos a ser su socio de confianza en la revolución digital.</p>
+
+               <p>¿Estás listo para llevar a tu empresa al siguiente nivel?</p>
+
+               <p class="dynamic-paragraph">¡Únete a nosotros en este emocionante viaje hacia la Transformación Digital Empresarial!</p>
+
+
+        </div>
+             
+       <div class="container">
+            <h1 class="dynamic-title">Escríbenos Aquí</h1>
+           <form id="contactForm" action="http://localhost:3001/api/contactos" method="POST">
+               <li> <label for="name">Nombre:</label></li>
+                <input type="text" id="name" name="name" required>
+
+              <li><label for="telefono">Teléfono:</label></li>
+                <input type="number" id="telefono" name="telefono" required>
+                
+              <li><label for="email">Correo electrónico:</label></li>
+              <input type="email" id="email" name="email" required>
+
+              <li><label for="message">Mensaje:</label></li>
+              <li><textarea id="message" name="message" rows="4" required></textarea></li>
+                
+                <li><button type="submit">Enviar</button></li>
+            </form>
+           <div id="formMessage"></div>
+       </div>
+
+    </main>
+    <div>
+        <div class="site">
+        <h1>Sígueme en mis redes sociales</h1>
+        <ul class="social-links">
+            <li><a href="https://wa.me/message/C5ZES66757IMA1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/irina-ballesteros/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/IrinaBallesteros" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/iriballest/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCP7mnxedVogzO8LPfH6dSwQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        </div>
+    </div>
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const formData = {
+                    name: e.target.name.value,
+                    telefono: e.target.telefono.value,
+                    email: e.target.email.value,
+                    message: e.target.message.value,
+                };
+
+                try {
+                    const response = await fetch('http://localhost:3001/api/contactos', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData),
+                    });
+                    const formMessage = document.getElementById('formMessage');
+
+                    if (response.ok) {
+                        formMessage.textContent = 'Mensaje enviado con éxito';
+                        formMessage.style.color = 'green';
+                        e.target.reset();
+                    } else {
+                        formMessage.textContent = 'Error al enviar el mensaje';
+                        formMessage.style.color = 'red';
+                    }
+                } catch (error) {
+                    console.error('Error al enviar el formulario', error);
+                    const formMessage = document.getElementById('formMessage');
+                    formMessage.textContent = 'Error al enviar el formulario';
+                    formMessage.style.color = 'red';
+                }
+            });
+        </script>
+    <footer>
+        <p>&copy; 2024 Irina Ballesteros</p>
+    </footer>
+</body>
+</html>

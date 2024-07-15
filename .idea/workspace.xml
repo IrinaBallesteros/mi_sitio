@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ffV5AIyWuMpSbfyUu2jabHFwdz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.blog.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contacto.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.App.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.bin\\www.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.contacto.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.db.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.db.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.insert.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.routes.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.routes.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.users.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.10&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/DELL/WebstormProjects/mi_Sitie/mi_aplicacion/node_modules/react-scripts&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\DELL\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2969b64e-2d06-4172-b016-d71edb241ed6" reportId="mi_Sitie/qodana/2024-07-04" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\bin" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\views" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_aplicacion\src" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.db.js">
+    <configuration name="contacto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/contacto.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="contacto.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/routes/contacto.js" working-dir="$PROJECT_DIR$/mi_api/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/db/db.js" working-dir="$PROJECT_DIR$/mi_api/db">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/routes/index.js" working-dir="$PROJECT_DIR$/mi_api/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/server.js" working-dir="$PROJECT_DIR$/mi_aplicacion/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.db.js" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="JavaScript Debug.contacto.html" />
+        <item itemvalue="Node.js.contacto.js" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="" />
+      <created>1714191933473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714191933473</updated>
+      <workItem from="1714191934481" duration="4464000" />
+      <workItem from="1714196428815" duration="1048000" />
+      <workItem from="1714257449065" duration="20416000" />
+      <workItem from="1714331678612" duration="3820000" />
+      <workItem from="1714335742530" duration="472000" />
+      <workItem from="1714336439727" duration="4735000" />
+      <workItem from="1714344760720" duration="438000" />
+      <workItem from="1715137721920" duration="172000" />
+      <workItem from="1715138191080" duration="600000" />
+      <workItem from="1715726325759" duration="2165000" />
+      <workItem from="1715729051389" duration="17219000" />
+      <workItem from="1716421497586" duration="2291000" />
+      <workItem from="1716424186838" duration="612000" />
+      <workItem from="1717101243572" duration="1111000" />
+      <workItem from="1718985495194" duration="1067000" />
+      <workItem from="1720120287952" duration="25729000" />
+      <workItem from="1720147442074" duration="8731000" />
+      <workItem from="1720156344998" duration="5299000" />
+      <workItem from="1720209803326" duration="2671000" />
+      <workItem from="1720476348565" duration="101000" />
+      <workItem from="1721067177611" duration="6215000" />
+      <workItem from="1721073499246" duration="3219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mi_aplicacion/src/slider.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mi_api/routes/index.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mi_api/routes/index.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
