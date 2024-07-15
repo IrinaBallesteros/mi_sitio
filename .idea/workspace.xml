@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\bin" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\views" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_aplicacion\src" />
-      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.db.js">
@@ -155,7 +153,7 @@
       <workItem from="1720209803326" duration="2671000" />
       <workItem from="1720476348565" duration="101000" />
       <workItem from="1721067177611" duration="6215000" />
-      <workItem from="1721073499246" duration="5159000" />
+      <workItem from="1721073499246" duration="5838000" />
     </task>
     <servers />
   </component>
