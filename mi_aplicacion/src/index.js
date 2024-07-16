@@ -4,10 +4,10 @@ const { Pool } = require('pg');
 
 // Configura la conexión a la base de datos
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
+  user: 'db_user',
+  host: 'db_host',
   database: 'bd_esfera_inteligente',
-  password: 'Exito2024$',
+  password: 'db_password',
   port: 5432, // Puerto por defecto de PostgreSQL
 });
 
