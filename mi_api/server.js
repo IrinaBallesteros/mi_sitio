@@ -5,7 +5,7 @@ const { Pool } = require('pg');
 require('dotenv').config();
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 // Configura el middleware
 app.use(bodyParser.json());
