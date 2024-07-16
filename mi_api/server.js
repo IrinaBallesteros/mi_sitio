@@ -3,12 +3,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { Pool } = require('pg');
 require('dotenv').config();
-const dbUser = process.env.DB_USER;
-const dbPassword = process.env.DB_PASSWORD;
-const dbHost = process.env.DB_HOST;
 
 const app = express();
-const port = 3002;
+const port = 3001;
 
 // Configura el middleware
 app.use(bodyParser.json());
