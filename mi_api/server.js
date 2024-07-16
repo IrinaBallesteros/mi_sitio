@@ -2,6 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { Pool } = require('pg');
+require('dotenv').config();
+const dbUser = process.env.DB_USER;
+const dbPassword = process.env.DB_PASSWORD;
+const dbHost = process.env.DB_HOST;
 
 const app = express();
 const port = 3002;
@@ -12,11 +16,11 @@ app.use(cors());
 
 // Configura la conexión a PostgreSQL
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
     database: 'bd_esfera_inteligente',
-    password: 'Exito2024$',
     port: 5432,
+    user: 'dbUser',
+    password: 'dbPassword',
+    host: 'dbHost',
 });
 
 // Ruta para manejar la solicitud POST del formulario

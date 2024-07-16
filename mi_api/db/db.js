@@ -1,11 +1,16 @@
 // db.js
 const { Pool } = require('pg');
+require('dotenv').config();
+
+const dbUser = process.env.DB_USER;
+const dbPassword = process.env.DB_PASSWORD;
+const dbHost = process.env.DB_HOST;
 
 const pool = new Pool({
-    host: 'localhost',
+    host: 'dbHost',
     port: 5432,
-    user: 'postgres',
-    password: 'Exito2024$',
+    user: 'dbUser',
+    password: 'dbPassword',
     database: 'bd_esfera_inteligente'
 });
 
