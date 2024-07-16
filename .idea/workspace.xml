@@ -5,60 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/capacit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/data.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/equipo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/laptos.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tablero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/trabajo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/README-es.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/lib/cli-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/lib/env-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/lib/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/lib/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/node_modules/dotenv/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/routes/contacto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/ESFERA.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ESFERA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/Image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/Image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Image2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/analitica.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/analitica.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/auditoria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/auditoria.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/calidad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/calidad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/ciber.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/ciber.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/consultoria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/consultoria.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/datos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/datos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/desarrollo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/desarrollo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/equip.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/equip.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/equipo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/plan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/plan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/procesos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/procesos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/reunion.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/reunion.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/slider2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/images/software.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/software.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +155,7 @@
       <workItem from="1721086191150" duration="2079000" />
       <workItem from="1721088304788" duration="3502000" />
       <workItem from="1721147876680" duration="7950000" />
-      <workItem from="1721163563439" duration="3400000" />
+      <workItem from="1721163563439" duration="3720000" />
     </task>
     <servers />
   </component>
