@@ -4,16 +4,13 @@ html, body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 header {
@@ -24,9 +21,10 @@ header {
   align-items: center;
   background-color:#081427;
   color: white;
+  flex-wrap: wrap; /* Add this for responsiveness */
 }
 
-.nombre_sitio{
+.nombre_sitio {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 3rem;
@@ -36,11 +34,9 @@ header {
   letter-spacing: 3px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px;
- opacity: 30%;
-
+  opacity: 30%;
 }
 
-/* Estilo para el subtítulo */
 .site-tagline {
   padding-top: 38px;
   text-align: center;
@@ -56,7 +52,7 @@ header img {
   margin-left: 15px;
 }
 
-header h1{
+header h1 {
   margin-top: -28px;
   font-size: 50px;
   margin-left: 18px;
@@ -69,7 +65,7 @@ main {
   align-items: center;
 }
 
-main h2{
+main h2 {
   text-align: center;
   font-size: xxx-large;
   color: white;
@@ -79,6 +75,7 @@ main h2{
   width: 90%;
   margin: 50px auto;
 }
+
 .slider img {
   width: 100%;
 }
@@ -108,7 +105,7 @@ nav a {
   color: #011d2b;
 }
 
-.hero-content h2{
+.hero-content h2 {
   text-align: center;
   padding-top: 5px;
 }
@@ -117,17 +114,18 @@ nav a {
   opacity: 0;
   animation: fadeIn 2s forwards;
 }
+
 @keyframes fadeIn {
   to {
     opacity: 1;
   }
 }
 
-.sugerencia-blog h2{
+.sugerencia-blog h2 {
   color: #011d2b;
 }
 
-.sugerencia-blog p{
+.sugerencia-blog p {
   color: #011d2b;
   font-size: x-large;
 }
@@ -137,32 +135,28 @@ nav a {
   --primary: #4ADEDD;
 }
 
-.sigemt{
-  justify-content: center;
-  text-align: center;
-}
-
-.site{
+.sigemt, .site, .social-links {
   justify-content: center;
   text-align: center;
 }
 
 .social-links {
-  justify-content: center;
-  text-align: center;
   font-family: Arial, sans-serif;
   list-style: none;
   padding: 0;
 }
+
 .social-links li {
   display: inline-block;
   margin: 0 10px;
 }
+
 .social-links a {
   text-decoration: none;
   color: #333;
   font-size: 2rem;
 }
+
 .social-links a:hover {
   color: #007bff;
 }
@@ -179,6 +173,7 @@ nav a {
   margin: 2rem;
   margin-bottom: 5rem;
 }
+
 .aside li {
   background-color: white;
   padding: 1em;
@@ -188,9 +183,11 @@ nav a {
   flex: 1;
   width: 100%;
 }
+
 .aside h3 {
   color: var(--primary);
 }
+
 .blog-post .author {
   font-size: 0.9em;
   color: #888;
@@ -209,12 +206,7 @@ nav a {
   box-sizing: border-box;
 }
 
-.nuestros_servicios h2{
-  color: #011d2b;
-  text-align: center;
-}
-
-.elige_paquetes h2{
+.nuestros_servicios h2, .elige_paquetes h2 {
   color: #011d2b;
   text-align: center;
 }
@@ -228,7 +220,6 @@ nav a {
   animation: fadeInUp 1.5s forwards;
 }
 
-/* Animación de desvanecimiento y desplazamiento hacia arriba */
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -236,19 +227,18 @@ nav a {
   }
 }
 
-/* Cambio de color al pasar el cursor */
 .dynamic-title:hover {
   color: #007bff;
   transition: color 0.3s;
 }
 
-.container_servicios {
+.container_servicios, .container_paquetes {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
 
-.services h2{
+.services h2 {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -261,30 +251,23 @@ nav a {
   box-sizing: border-box;
 }
 
-.service {
-  background-color: #011d2b; /* Azul más oscuro para los servicios */
+.service, .paquete {
+  background-color: #011d2b;
   padding: 20px;
   border-radius: 10px;
   color: white;
-  text-align: left;
+  text-align: justify;
 }
 
-.service img {
+.service img, .paquete img {
   width: 100%;
   height: auto;
-}
-
-.container_paquetes {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .paquets {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-
 }
 
 .paquets h3 {
@@ -299,15 +282,7 @@ nav a {
   color: white;
 }
 
-.paquete {
-  background-color: #011d2b; /* Azul más oscuro para los servicios */
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-  text-align: justify;
-}
-
-.btn-primary{
+.btn-primary {
   background-color: #f9f9f9;
   box-sizing: border-box;
   font-size: 20px;
@@ -316,7 +291,7 @@ nav a {
   flex-direction: row;
   cursor: pointer;
   border: 1px solid #0a3871;
-  transition-duration : 1s;
+  transition-duration: 1s;
 }
 
 article {
@@ -325,6 +300,7 @@ article {
   padding: 20px;
   float: left;
 }
+
 .container {
   background-color: #fff;
   padding: 30px;
@@ -334,12 +310,12 @@ article {
   max-width: 500px;
   text-align: center;
 }
+
 form li {
   list-style-type: none;
   margin-bottom: 15px;
 }
 
-/* Estilo para las etiquetas */
 form label {
   display: block;
   margin-bottom: 5px;
@@ -347,7 +323,6 @@ form label {
   color: #555;
 }
 
-/* Estilos para los campos de entrada */
 form input[type="text"],
 form input[type="number"],
 form input[type="email"],
@@ -363,13 +338,11 @@ form textarea {
   transition: border-color 0.3s;
 }
 
-/* Estilo para el campo de mensaje */
 form textarea {
   height: 100px;
   resize: vertical;
 }
 
-/* Estilos para los campos de entrada al obtener foco */
 form input[type="text"]:focus,
 form input[type="number"]:focus,
 form input[type="email"]:focus,
@@ -378,7 +351,6 @@ form textarea:focus {
   outline: none;
 }
 
-/* Estilo para el botón de envío */
 form button[type="submit"] {
   display: block;
   width: 100%;
@@ -392,22 +364,13 @@ form button[type="submit"] {
   transition: background-color 0.3s;
 }
 
-/* Estilo para el botón de envío al pasar el cursor */
 form button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Barra lateral
-aside {
-  float: unset;
-  width: 30%;
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-*/
 footer {
   box-sizing: border-box;
-  background-color: #011d2b; /* Azul más oscuro para el pie de página */
+  background-color: #011d2b;
   color: #FFFFFF;
   text-align: center;
   padding: 10px 0;
@@ -416,7 +379,58 @@ footer {
   width: 100%;
 }
 
-footer a{
-  color: #34f9fe;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img, header h1, header h2 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .services, .paquets {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .services, .paquets {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header img {
+    width: 150px;
+  }
 }
 
