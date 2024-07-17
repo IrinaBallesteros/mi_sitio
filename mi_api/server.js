@@ -1,8 +1,8 @@
+// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { Pool } = require('pg');
-require('dotenv').config();
+const pool = require('./db/db');
 
 const app = express();
 const port = 3000;
@@ -10,15 +10,6 @@ const port = 3000;
 // Configura el middleware
 app.use(bodyParser.json());
 app.use(cors());
-
-// Configura la conexión a PostgreSQL
-const pool = new Pool({
-    database: 'bd_esfera_inteligente',
-    port: 5432,
-    user: 'dbUser',
-    password: 'dbPassword',
-    host: 'dbHost',
-});
 
 // Ruta para manejar la solicitud POST del formulario
 app.post('/api/contactos', async (req, res) => {
@@ -31,7 +22,7 @@ app.post('/api/contactos', async (req, res) => {
         );
         res.status(200).send('Mensaje enviado con éxito');
     } catch (error) {
-        console.error('Error al insertar los datos en la base de datos', error);
+        console.error('Error al insertar los datos en la base de datos', error.stack || error);
         res.status(500).send('Error al enviar el mensaje');
     }
 });

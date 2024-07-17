@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_api/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_api/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/db/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,50 +40,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "JavaScript Debug.blog.html.executor": "Run",
-    "JavaScript Debug.contacto.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Jest.App.test.js.executor": "Run",
-    "Jest.renders learn react link.executor": "Run",
-    "Node.js.App.js.executor": "Run",
-    "Node.js.app.js.executor": "Run",
-    "Node.js.bin\\www.executor": "Debug",
-    "Node.js.contacto.js.executor": "Run",
-    "Node.js.db.js (1).executor": "Run",
-    "Node.js.db.js.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.insert.js.executor": "Run",
-    "Node.js.routes.js (1).executor": "Run",
-    "Node.js.routes.js.executor": "Run",
-    "Node.js.server.js (1).executor": "Run",
-    "Node.js.server.js.executor": "Run",
-    "Node.js.users.js.executor": "Run",
-    "Node.js.www.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.15.0",
-    "javascript.nodejs.core.library.typings.version": "20.14.10",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "C:/Users/DELL/WebstormProjects/mi_Sitie/mi_aplicacion/node_modules/react-scripts",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.blog.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contacto.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.App.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.bin\\www.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.contacto.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.db.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.db.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.insert.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.routes.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.routes.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.users.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.www.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.14.10&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/DELL/WebstormProjects/mi_Sitie/mi_aplicacion/node_modules/react-scripts&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api" />
@@ -86,7 +93,7 @@
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.db.js">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="contacto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/contacto.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.db.js" />
         <item itemvalue="Node.js.server.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.db.js" />
         <item itemvalue="JavaScript Debug.contacto.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.contacto.js" />
       </list>
     </recent_temporary>
@@ -155,7 +162,11 @@
       <workItem from="1721086191150" duration="2079000" />
       <workItem from="1721088304788" duration="3502000" />
       <workItem from="1721147876680" duration="7950000" />
-      <workItem from="1721163563439" duration="4188000" />
+      <workItem from="1721163563439" duration="7638000" />
+      <workItem from="1721174857193" duration="6370000" />
+      <workItem from="1721182011314" duration="93000" />
+      <workItem from="1721182111268" duration="1158000" />
+      <workItem from="1721183289926" duration="2110000" />
     </task>
     <servers />
   </component>

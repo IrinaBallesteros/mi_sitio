@@ -36,7 +36,7 @@
              
        <div class="container">
             <h1 class="dynamic-title">Escríbenos Aquí</h1>
-           <form id="contactForm" action="http://localhost:3001/api/contactos" method="POST">
+           <form id="contactForm" action="http://localhost:3000/api/contactos" method="POST">
                <li> <label for="name">Nombre:</label></li>
                 <input type="text" id="name" name="name" required>
 
@@ -78,7 +78,7 @@
                 };
 
                 try {
-                    const response = await fetch('http://localhost:3001/api/contactos', {
+                    const response = await fetch('http://localhost:3000/api/contactos', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
