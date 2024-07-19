@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_api/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/db/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +92,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/blog.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="contacto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/contacto.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -105,13 +104,16 @@
     <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/db/db.js" working-dir="$PROJECT_DIR$/mi_api/db">
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/server.js" working-dir="$PROJECT_DIR$/mi_api">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.db.js" />
         <item itemvalue="JavaScript Debug.servicios.html" />
         <item itemvalue="JavaScript Debug.contacto.html" />
-        <item itemvalue="JavaScript Debug.blog.html" />
-        <item itemvalue="Node.js.db.js" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,7 @@
       <workItem from="1721411336340" duration="48000" />
       <workItem from="1721411397490" duration="80000" />
       <workItem from="1721411491665" duration="969000" />
-      <workItem from="1721412501509" duration="5116000" />
+      <workItem from="1721412501509" duration="5961000" />
     </task>
     <servers />
   </component>
