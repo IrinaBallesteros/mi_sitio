@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +172,7 @@
       <workItem from="1721411336340" duration="48000" />
       <workItem from="1721411397490" duration="80000" />
       <workItem from="1721411491665" duration="969000" />
-      <workItem from="1721412501509" duration="4767000" />
+      <workItem from="1721412501509" duration="5116000" />
     </task>
     <servers />
   </component>
