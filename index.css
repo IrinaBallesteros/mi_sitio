@@ -84,7 +84,7 @@ main h2 {
 .slider {
   width: 98%;
   height: 90vh;
-  margin: 0px auto;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
@@ -117,7 +117,7 @@ nav a {
   font-family: "Roboto", sans-serif;
   font-size: x-large;
   padding: 0;
-  color: #011d2b;
+  color: #081427;
 }
 
 .hero-content h2 {
@@ -141,12 +141,12 @@ nav a {
 }
 
 .sugerencia-blog h2 {
-  color: #011d2b;
+  color:#0056b3;
   font-size: x-large;
 }
 
 .sugerencia-blog p {
-  color: #011d2b;
+  color: #081427;
   font-size: x-large;
 }
 
@@ -168,7 +168,7 @@ nav a {
 
 .form-section, .info-section {
   flex: 1;
-  background: #011d2b;
+  background: #081427;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -288,7 +288,7 @@ form button:hover {
 .container {
   width: 80%;
   margin: 0 auto;
-  color: #011d2b;
+  color: #081427;
 }
 
 .services {
@@ -299,7 +299,7 @@ form button:hover {
 }
 
 .nuestros_servicios h2, .elige_paquetes h2 {
-  color: #011d2b;
+  color: #081427;
   text-align: center;
 }
 
@@ -342,7 +342,7 @@ form button:hover {
 }
 
 .service, .paquete {
-  background-color: #011d2b;
+  background-color: #081427;
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -389,13 +389,13 @@ article {
 }
 
 .container {
-  background-color: #011d2b;
-  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px;
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 form li {
@@ -458,7 +458,7 @@ form button[type="submit"]:hover {
 
 footer {
   box-sizing: border-box;
-  background-color: #011d2b;
+  background-color: #081427;
   color: #FFFFFF;
   text-align: center;
   padding: 10px 0;
@@ -467,12 +467,7 @@ footer {
   width: 100%;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 footer ul {
   list-style: none;
