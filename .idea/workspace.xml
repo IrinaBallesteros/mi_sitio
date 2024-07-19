@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="servicios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/servicios.html" useBuiltInWebServerPort="true">
+    <configuration name="servicios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/servicios.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/db/db.js" working-dir="$PROJECT_DIR$/mi_api/db">
@@ -180,7 +179,7 @@
       <workItem from="1721412501509" duration="9041000" />
       <workItem from="1721422452106" duration="2480000" />
       <workItem from="1721425181504" duration="947000" />
-      <workItem from="1721426889631" duration="3000000" />
+      <workItem from="1721426889631" duration="3775000" />
     </task>
     <servers />
   </component>
@@ -191,7 +190,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/mi_aplicacion/src/slider.js</url>
+          <url>file://$PROJECT_DIR$/slider.js</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
