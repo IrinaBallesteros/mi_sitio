@@ -4,7 +4,7 @@ html, body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Arial', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,36 +14,42 @@ code {
 }
 
 header {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color:#081427;
   color: white;
-  flex-wrap: wrap; /* Add this for responsiveness */
+  flex-wrap: wrap;
 }
 
 .nombre_sitio {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-size: 3rem;
-  font-weight: 600;
-  color: #00B7FF;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 10px;
-  opacity: 30%;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 2.7rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    border-bottom-width: 1px;
+  }
 }
 
 .site-tagline {
-  padding-top: 38px;
+  font-family: 'Segoe UI', sans-serif;
+  padding-top: 5px;
   text-align: center;
-  font-family: 'Arial', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: #0a3871;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
   text-transform: uppercase;
 }
 
@@ -71,10 +77,14 @@ main h2 {
   color: white;
 }
 
+.slider-container{
+  background: #081427;
+}
+
 .slider {
-  width: 95%;
-  height: 120vh; /* Ajusta el alto al 40% del viewport */
-  margin: 50px auto;
+  width: 98%;
+  height: 90vh;
+  margin: 0px auto;
   overflow: hidden;
   position: relative;
 }
@@ -82,9 +92,8 @@ main h2 {
 .slider img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ajusta la imagen sin recortarla */
+  object-fit: contain;
 }
-
 
 nav ul {
   list-style: none;
@@ -93,17 +102,17 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 60px;
 }
 
 nav a {
+  font-family: 'Segoe UI', sans-serif;
   text-decoration: #34f9fe;
   color: #fff;
-  font-size: x-large;
+  font-size: large;
 }
 
 .hero p {
-  justify-content: center;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: x-large;
@@ -127,8 +136,13 @@ nav a {
   }
 }
 
+.sugerencia-blog{
+  text-align: center;
+}
+
 .sugerencia-blog h2 {
   color: #011d2b;
+  font-size: x-large;
 }
 
 .sugerencia-blog p {
@@ -146,21 +160,94 @@ nav a {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-section, .info-section {
+  flex: 1;
+  background: #011d2b;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  max-width: 500px;
+}
+
+.info-section {
+  max-width: 500px;
+}
+
+.info-section h2{
+  font-size: x-large;
+}
+
+.info-section p{
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.info-section img{
+  width: 45%;
+  height: 40%;
+
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.site {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .social-links {
-  font-family: Arial, sans-serif;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .social-links li {
-  display: inline-block;
+  display: inline;
   margin: 0 10px;
 }
 
 .social-links a {
-  text-decoration: none;
   color: #333;
-  font-size: 2rem;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .social-links a:hover {
@@ -218,7 +305,7 @@ nav a {
 
 .dynamic-title {
   font-size: 3rem;
-  color: #011d2b;
+  color: #007bff;
   margin: 20px 0;
   opacity: 0;
   transform: translateY(20px);
@@ -273,7 +360,7 @@ nav a {
   gap: 20px;
 }
 
-.paquets h3 {
+.paquets h4 {
   text-align: center;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -302,7 +389,7 @@ article {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #011d2b;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -320,7 +407,7 @@ form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #555;
+  color: #FFFFFF;
 }
 
 form input[type="text"],
@@ -333,7 +420,7 @@ form textarea {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
-  color: #333;
+  color: black;
   box-sizing: border-box;
   transition: border-color 0.3s;
 }
@@ -352,20 +439,21 @@ form textarea:focus {
 }
 
 form button[type="submit"] {
-  display: block;
-  width: 100%;
+  display: compact;
+  margin-top: 15px;
+  width: 50%;
   padding: 10px;
   background-color: #007bff;
   border: none;
   border-radius: 4px;
   font-size: 16px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 form button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #34f9fe;
 }
 
 footer {
@@ -434,3 +522,36 @@ footer p {
   }
 }
 
+.post {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+.post img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 20px;
+  width: 60%;
+}
+
+.post-content h2 {
+  margin-top: 0;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

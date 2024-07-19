@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mi_api/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi_api/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi_api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/public/servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_aplicacion/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mi_aplicacion/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     &quot;JavaScript Debug.blog.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.contacto.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.servicios.html.executor&quot;: &quot;Run&quot;,
     &quot;Jest.App.test.js.executor&quot;: &quot;Run&quot;,
     &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
@@ -75,6 +76,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -86,36 +88,36 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_aplicacion\public" />
+      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_aplicacion\src" />
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\bin" />
-      <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/blog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="contacto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/contacto.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="contacto.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/routes/contacto.js" working-dir="$PROJECT_DIR$/mi_api/routes">
+    <configuration name="servicios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/mi_aplicacion/public/servicios.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/db/db.js" working-dir="$PROJECT_DIR$/mi_api/db">
       <method v="2" />
     </configuration>
-    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mi_api/server.js" working-dir="$PROJECT_DIR$/mi_aplicacion/src">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.server.js" />
-        <item itemvalue="Node.js.db.js" />
-        <item itemvalue="JavaScript Debug.contacto.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.contacto.js" />
+        <item itemvalue="JavaScript Debug.servicios.html" />
+        <item itemvalue="JavaScript Debug.contacto.html" />
+        <item itemvalue="JavaScript Debug.blog.html" />
+        <item itemvalue="Node.js.db.js" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +169,16 @@
       <workItem from="1721182011314" duration="93000" />
       <workItem from="1721182111268" duration="1158000" />
       <workItem from="1721183289926" duration="2110000" />
+      <workItem from="1721185485893" duration="1824000" />
+      <workItem from="1721344110931" duration="8110000" />
+      <workItem from="1721352316914" duration="5539000" />
+      <workItem from="1721358000358" duration="1483000" />
+      <workItem from="1721359535243" duration="1664000" />
+      <workItem from="1721408460806" duration="2830000" />
+      <workItem from="1721411336340" duration="48000" />
+      <workItem from="1721411397490" duration="80000" />
+      <workItem from="1721411491665" duration="969000" />
+      <workItem from="1721412501509" duration="4767000" />
     </task>
     <servers />
   </component>
