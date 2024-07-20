@@ -163,20 +163,18 @@ nav a:hover {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
+  padding: 20px;
 }
 
 .form-section, .info-section {
   flex: 1;
   background: #081427;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.form-section {
-  max-width: 500px;
+  min-width: 300px;
 }
 
 .info-section {
@@ -184,34 +182,38 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 500px;
 }
 
 .info-section h2 {
-  font-size: x-large;
+  font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 .info-section p {
   text-align: justify;
+  margin-bottom: 20px;
   color: #FFFFFF;
 }
 
 .info-section img {
-  width: 40%;
-  height: 20%;
+  max-width: 35%;
+  height: auto;
+  border-radius: 10px;
 }
 
 form label {
   display: block;
-  margin: 10px 0 5px;
+  margin: 20px 25px;
+  color: #FFFFFF;
 }
 
 form input, form textarea {
-  width: 100%;
-  padding: 10px;
+  width: 90%;
+  padding: 8px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  box-sizing: border-box;
+  align-content: center;
+  margin-left: 25px;
 }
 
 form button {
@@ -221,10 +223,11 @@ form button {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+  margin: 25px;
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #34f9fe;
 }
 
 #formMessage {
@@ -279,17 +282,6 @@ form button:hover {
 
 .aside h3 {
   color: var(--primary);
-}
-
-.blog-post .author {
-  font-size: 0.9em;
-  color: #888;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  color: #081427;
 }
 
 .services {
@@ -382,61 +374,57 @@ form button:hover {
   border: 1px solid #0a3871;
   transition-duration: 1s;
 }
-
-article {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  float: left;
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px;
+  max-width: 600px;
 }
 
-form li {
-  list-style-type: none;
-  margin-bottom: 15px;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-form input[type="text"],
-form input[type="number"],
-form input[type="email"],
-form textarea {
+.post img {
   width: 100%;
-  padding: 10px;
+  height: auto;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post h2 {
+  font-size: 1.5em;
+  color: #333333;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-  color: black;
-  box-sizing: border-box;
-  transition: border-color 0.3s;
 }
 
-form input[type="text"]:focus,
-form input[type="number"]:focus,
-form input[type="email"]:focus,
-form textarea:focus {
-  border-color: #0056b3;
-  outline: none;
+.post p {
+  font-size: 1em;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
-form button[type="submit"] {
-  background-color: #0056b3;
-  color: #fff;
-  border: none;
+.post .read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
   padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
-form button[type="submit"]:hover {
-  background-color: #004494;
+.post .read-more:hover {
+  background-color: #0056b3;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -444,6 +432,22 @@ footer {
   padding: 10px;
   background-color: #081427;
   color: #fff;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .post {
+    flex-direction: row;
+  }
+
+  .post img {
+    width: 50%;
+  }
+
+  .post-content {
+    width: 50%;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -467,5 +471,11 @@ footer {
 
   .slider {
     height: 60vh;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
   }
 }

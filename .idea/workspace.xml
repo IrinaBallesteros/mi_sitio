@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="255fd803-6364-42c9-8f67-8f1675f5cf7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +91,8 @@
       <recent name="C:\Users\DELL\WebstormProjects\mi_Sitie\mi_api\bin" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="contacto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/contacto.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.blog.html">
+    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/blog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mi_Sitie/index.html" useBuiltInWebServerPort="true">
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.blog.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.db.js" />
         <item itemvalue="JavaScript Debug.servicios.html" />
-        <item itemvalue="JavaScript Debug.contacto.html" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,7 @@
       <workItem from="1721426889631" duration="3882000" />
       <workItem from="1721430821663" duration="490000" />
       <workItem from="1721431603324" duration="61000" />
-      <workItem from="1721510681537" duration="3359000" />
+      <workItem from="1721510681537" duration="8024000" />
     </task>
     <servers />
   </component>
