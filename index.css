@@ -340,7 +340,7 @@ form button:hover {
   padding: 20px;
   border-radius: 10px;
   color: white;
-  text-align: justify;
+  text-align: left;
 }
 
 .service img, .paquete img {
