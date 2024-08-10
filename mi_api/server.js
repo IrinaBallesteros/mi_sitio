@@ -7,7 +7,6 @@ const pool = require('./db/db');
 const app = express();
 const port = 3000;
 
-// Configura el middleware
 app.use(bodyParser.json());
 app.use(cors());
 
