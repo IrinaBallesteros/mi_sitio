@@ -1,0 +1,182 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color:  #f5f7fa;
+    color: #2C3E50;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #081427;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-family: Dela Gothic One, cursive;
+    font-size: 2.5rem;
+    color: #2C3E50;
+  }
+  
+  
+  .nav {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .nav-list li a {
+    color: #2C3E50; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .nav-list li a:hover {
+    color: #00bcd4; 
+  }
+
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #003366, #081427);
+    color: #fff;  
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #00bcd4;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0196a3;
+  }
+  
+  /* About Section */
+  .about {
+    background: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .link-learn {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-learn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Slider */
+  .slider-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .slide {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+/* Botones flechas del slider */
+  .slick-prev, .slick-next {
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+/* Puntos (dots) debajo */
+  .slick-dots li button:before {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #000;
+  }
+
+/* mejorar el header y footer */
+  .header, .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
+  }
+
+  
+  
+/* Social */
+  .social {
+    background: gradient(to right, #00bcd4, #081427); 
+    color: #C3E50f;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .social-links a {
+    color: #00bcd4;
+    font-size: 2rem;
+  }
+
+  .social-links a:hover {
+    color: #fff;
+  }
+
+/* Footer */
+  .footer {
+    background: linear-gradient(to right, #003366, #081427);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+  }
+  
