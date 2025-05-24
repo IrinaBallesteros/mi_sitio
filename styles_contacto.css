@@ -1,0 +1,240 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #222222;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color:  #2C3E50;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #081427;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+.logo {
+    color: #2C3E50;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.nav {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+.nav-list li a {
+  color: #333; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: #00bcd4; 
+}
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #003366, #081427);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.hero .dynamic-paragraph {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+/* Container Principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+/* Sección de información */
+.info-section {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.info-section h2 {
+    font-size: 2rem;    
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.info-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin: 0px 80px;
+}
+
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+/* Sección de formulario */
+.form-section {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.form-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.form-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-section form input, 
+.form-section form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-section form button {
+    background-color: #2C3E50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-section form button:hover {
+    background-color: #34495E;
+}
+
+#formMessage {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #27AE60;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
+}
+  
+    
+    
+  /* Social */
+.social {
+    background: linear-gradient(to right, #003366 #f8f9fa);;
+    color: #003366;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+  
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+  
+.social-links a {
+    color: #00bcd4;
+    font-size: 2rem;
+}
+  
+.social-links a:hover {
+    color: #fff;
+}
+  
+  /* Footer */
+.footer {
+    background: linear-gradient(to right, #003366, #081427);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  
